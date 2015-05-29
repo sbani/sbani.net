@@ -1,0 +1,12 @@
+box: wercker/nodejs
+build:
+  steps:
+    - npm-install
+    - script:
+        name: hexo generate
+        code: ./node_modules/.bin/hexo generate
+    - script:
+        name: deploy to divshot.io
+        code: |
+          npm install -g divshot-cli 
+          divshot push $WERCKER_DEPLOYTARGET_NAME --token $DIVSHOT_TOKEN
