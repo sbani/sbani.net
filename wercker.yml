@@ -5,8 +5,11 @@ build:
     - script:
         name: hexo generate
         code: ./node_modules/.bin/hexo generate
+deploy:
+  steps:
     - script:
         name: deploy to divshot.io
         code: |
-          npm install -g divshot-cli 
+          sudo npm install -g divshot-cli
+          divshot --version
           divshot push $WERCKER_DEPLOYTARGET_NAME --token $DIVSHOT_TOKEN
