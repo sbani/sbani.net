@@ -7,7 +7,7 @@ title: sBani
 subtitle: Developer
 description: Software Development
 author: Sufijen Bani
-language: de_DE
+language:
 timezone: Europe/Berlin
 
 # URL
@@ -22,7 +22,7 @@ source_dir: source
 public_dir: public
 tag_dir: tags
 archive_dir: archive
-category_dir: kategorie
+category_dir: category
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -63,10 +63,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: hexo-clean-blog
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: openshift
-  repo: ssh://5566bc46e0b8cd742000020f@blog-sbani.rhcloud.com/~/git/blog.git/
