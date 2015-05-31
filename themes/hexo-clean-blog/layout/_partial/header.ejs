@@ -1,0 +1,25 @@
+<!-- Page Header -->
+<!-- Set your background image for this header on the line below. -->
+<header class="intro-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <% if (is_archive() || is_category() || is_tag() || !page.title) { %>
+          <div class="site-heading">
+            <h1><%- partial('title', {add_config_title: false}) %></h1>
+            <hr class="small">
+            <span class="subheading"><%= theme.subtitle %></span>
+          </div> 
+        <% } else { %>
+          <div class="post-heading">
+            <h1><%- partial('title', {add_config_title: false}) %></h1>
+            <span class="meta">Posted in <%- partial('post/category', {post: page}) %> on <%- partial('post/date', {date_format: null, post: page}) %></span>
+          </div>
+        <% } %>
+      </div>
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <%- partial('_partial/social-icons', {show_rss: false}) %>
+      </div>
+    </div>
+  </div>
+</header>

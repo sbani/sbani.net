@@ -1,7 +1,18 @@
 box: wercker/nodejs
 build:
   steps:
+    - script:
+        name: echo nodejs information
+        code: |
+          echo "node version $(node -v) running"
+          echo "npm version $(npm -v) running"
     - npm-install
+    - script:
+        name: build css
+        code: |
+          sudo npm install -g gulp
+          gulp --version
+          gulp css
     - script:
         name: hexo generate
         code: ./node_modules/.bin/hexo generate
