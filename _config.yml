@@ -20,8 +20,6 @@ permalink_defaults:
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
-archive_dir: archives
 category_dir: category
 code_dir: downloads/code
 i18n_dir: :lang
@@ -70,6 +68,11 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
+
+# Robots
+robotstxt:
+  useragent: "*"
+  sitemap: /sitemap.xml
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
