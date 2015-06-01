@@ -4,11 +4,13 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <% if (is_archive() || is_category() || is_tag() || !page.title) { %>
+        <% if (is_archive() || is_category() || is_tag() || !page.title || page['__page'] === true) { %>
           <div class="site-heading">
             <h1><%- partial('title', {add_config_title: false}) %></h1>
-            <hr class="small">
-            <span class="subheading"><%= theme.subtitle %></span>
+            <% if (page['__page'] !== true) { %>
+              <hr class="small">
+              <span class="subheading"><%= theme.subtitle %></span>
+            <% }%>
           </div> 
         <% } else { %>
           <div class="post-heading">
@@ -17,9 +19,11 @@
           </div>
         <% } %>
       </div>
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <%- partial('_partial/social-icons', {show_rss: false}) %>
-      </div>
+      <% if (!is_archive() && !is_category() && !is_tag() && !page.title) { %>
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <%- partial('_partial/social-icons', {show_rss: false}) %>
+        </div>
+      <% } %>
     </div>
   </div>
 </header>
