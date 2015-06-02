@@ -4,7 +4,7 @@
 
 # Site
 title: sBani
-subtitle: Developer
+subtitle: Software Developer
 description: Software Development
 author: Sufijen Bani
 language:
@@ -14,14 +14,12 @@ timezone: Europe/Berlin
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://www.sbani.net
 root: /
-permalink: :category/:title
+permalink: :category/:title.html
 permalink_defaults:
 
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
-archive_dir: archive
 category_dir: category
 code_dir: downloads/code
 i18n_dir: :lang
@@ -63,7 +61,18 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: hexo-clean-blog
+theme: hexo-theme-yilia
+
+# Atom feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+# Robots
+robotstxt:
+  useragent: "*"
+  sitemap: /sitemap.xml
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html

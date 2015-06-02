@@ -1,0 +1,14 @@
+<%- js('//cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js') %>
+<% if (theme.fancybox){ %>
+  <%- css('//cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.min.css') %>
+  <%- js('//cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.pack.js') %>
+<% } %>
+
+<%- js('js/mobile') %>
+<%- js('js/main') %>
+
+<%- partial('google-analytics') %>
+
+<% if (theme.mathjax){ %>
+<%- partial('mathjax') %>
+<% } %>
