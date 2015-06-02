@@ -61,7 +61,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: hexo-clean-blog
+theme: hexo-theme-yilia
 
 # Atom feed
 feed:
