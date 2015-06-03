@@ -42,6 +42,7 @@ permalink: :category/:title.html
 ```
 
 ## Divshot
+![Divshot](/images/divshot-staging.jpg)
 ### About
 [Divshot](https://divshot.com/) is a great static site hoster for devs. You have 100MB storage and 1GB traffic for free. You can deploy to several environments and (except Github Pages) you can create redirects vhich is very helpful when it comes to migration.
 
@@ -156,7 +157,7 @@ deploy:
 #### Add target
 There is a [doc from Divshot](http://docs.divshot.com/integrations/wercker) too.
 
-![Choose custom eploy](/images/wercker-custom-deploy.jpg)
+![Choose custom deploy](/images/wercker-custom-deploy.jpg)
 Choose *Custom Deploy* and fill the form.
 
 ![](/images/wercker-deploy-target.jpg)
