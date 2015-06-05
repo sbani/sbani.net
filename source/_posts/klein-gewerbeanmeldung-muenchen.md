@@ -12,7 +12,7 @@ In diesem Beitrag berichte ich über meine Erfahrungen bei der **Gewerbeanmeldun
 
 Das ganze spielt sich in genau zwei Institutionen ab: Dem **Gewerbeamt** und dem **Finanzamt**. Bei mir war das zuständige Gewerbeamt im [KVR](http://www.muenchen.de/rathaus/Stadtverwaltung/Kreisverwaltungsreferat.html) **München** zu finden. Das zuständige Finanzamt ist für mich das **Zentrale Finanzamt**, da man nur dort **Informationen** einholen darf. In die anderen kommt man nur mit Einladung/Termin. Wenn ihr in einer anderen Stadt wohnt, wovon ich bei den meisten ausgehe, dann informiert ihr euch am besten vorher im Internet und/oder per Telefon, wo und wann ihr hin müsst/könnt, denn wie jeder weiß, sind **Beamte** nicht sehr lange im Dienst.
 
-![Gewerbeanmeldung München](http://www.muenchen.de/rathaus/.imaging/stk/default/contentLarge/dms/Home/Stadtverwaltung/Kreisverwaltungsreferat/allgemein/Startseite/kvr-aufmacher/document/kvr-aufmacher.JPG)
+![Gewerbeanmeldung München](http://www.muenchen.de/rathaus/.imaging/stk/lhm/teaserStage/dms/Home/Stadtverwaltung/Kreisverwaltungsreferat/allgemein/Startseite/kvr-aufmacher/document/kvr-aufmacher.JPG)
 
 ## Das Gewerbeamt
 
