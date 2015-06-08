@@ -84,6 +84,7 @@ Quite simple. If you look at the Divshot Docs or in my [divshot.json](https://gi
 
 ## Wercker
 Setting up [Wercker](http://wercker.com/) was the tricky part here. Add a [wercker.yml](https://github.com/sbani/sbani.net/blob/master/wercker.yml) to the app root.
+![Deploy example](/images/wercker-deploy.jpg)
 ### wercker.yml
 Here is mine:
 ```yaml
