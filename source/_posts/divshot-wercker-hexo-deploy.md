@@ -33,6 +33,8 @@ npm install
 hexo server
 ```
 
+I found a very nice full length tutorial here: [jr0cket Hexo tutorial](http://jr0cket.co.uk/hexo/)
+
 ### Codio Extra
 When running Hexo on Codio via `hexo server` for the first time, with the default settings, my Browser always downloaded the Posts.
 
