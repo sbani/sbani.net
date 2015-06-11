@@ -72,7 +72,7 @@ feed:
 # Robots
 robotstxt:
   useragent: "*"
-  sitemap: /sitemap.xml
+  sitemap: http://sbani.net/sitemap.xml
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
