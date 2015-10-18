@@ -31,10 +31,10 @@ func main() {
 
     // Add 10 calls to the queue
     for i := 0; i < 5; i++ {
-        limiter.add(printInt, i)
+        limiter.add(CallApiXYZ, i)
     }
 
-    // Just to make you know it's non-blocking
+    // Just to make sure that you know it's non-blocking
     fmt.Println("This is printed first")
 
     // Because it's non blocking, we have to wait for all 5 jobs and 1 more second
