@@ -12,9 +12,11 @@ build:
         code: ./node_modules/.bin/hexo generate
 deploy:
   steps:
+    - name: "Install lftp"
+      install-packages:
+        packages: lftp
+
     - script:
-        name: deploy to divshot.io
+        name: "Run ftp upload"
         code: |
-          sudo npm install -g divshot-cli
-          divshot --version
-          divshot push $WERCKER_DEPLOYTARGET_NAME --token $DIVSHOT_TOKEN
+          lftp -e "mirror -R public/ html/main/" -u $FTP_USER,$FTP_PASS $FTP_HOST

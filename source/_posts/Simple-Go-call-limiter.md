@@ -1,10 +1,10 @@
-title: Simple Go call limiter
+title: Simple Go call/rate limiter
 date: 2015-10-18 11:52:01
 categories:
-    - Software
+  - Software
 tags:
-    - Go
-    - Concurrency
+  - Go
+  - Concurrency
 ---
 
 I've written a call limiter (or **rate limiter**) for **GoLang**. It's a very simple limiter, that enables you to limit the calls or a function.
