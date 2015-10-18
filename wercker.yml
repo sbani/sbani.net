@@ -12,8 +12,7 @@ build:
         code: ./node_modules/.bin/hexo generate
 deploy:
   steps:
-    - name: "Install lftp"
-      install-packages:
+    - install-packages:
         packages: lftp
 
     - script:
