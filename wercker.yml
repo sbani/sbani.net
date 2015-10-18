@@ -18,4 +18,5 @@ deploy:
     - script:
         name: "Run ftp upload"
         code: |
+          echo "lftp version $(lftp -v) running"
           lftp -e "mirror -R public/ html/main/" -u $FTP_USER,$FTP_PASS $FTP_HOST
