@@ -19,4 +19,4 @@ deploy:
         name: "Run ftp upload"
         code: |
           lftp -v
-          lftp -e "mirror -R public/ html/main/" -u $FTP_USER,$FTP_PASS $FTP_HOST
+          lftp -e "mirror -R public/ html/main/ -v; bye" -u $FTP_USER,$FTP_PASS $FTP_HOST
