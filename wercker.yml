@@ -2,21 +2,27 @@ box: node
 build:
   steps:
     - script:
-        name: echo nodejs information
-        code: |
-          echo "node version $(node -v) running"
-          echo "npm version $(npm -v) running"
+      name: echo nodejs information
+      code: |
+        echo "node version $(node -v) running"
+        echo "npm version $(npm -v) running"
     - npm-install
     - script:
-        name: hexo generate
-        code: ./node_modules/.bin/hexo generate
+      name: hexo generate
+      code: ./node_modules/.bin/hexo generate
+
 deploy:
+  box:
+    id: google/cloud-sdk
   steps:
-    - install-packages:
-        packages: lftp
+    - script:
+      name: Activate service account
+      code: |
+        echo $GOOGLE_JSON >> secret.json
+        CLOUDSDK_PYTHON_SITEPACKAGES=1 gcloud auth activate-service-account $GOOGLE_ACCOUNT --key-file secret.json
 
     - script:
-        name: "Run ftp upload"
-        code: |
-          lftp -v
-          lftp -e "mirror -R public/ html/main/ -v; bye" -u $FTP_USER,$FTP_PASS $FTP_HOST
+      name: Upload to store
+      code: |
+        gsutil -m rsync -r -d public gs://$GOOGLE_BUCKET
+        gsutil -m cp -r -z html,css,js,xml,txt,json,map,svg public/* gs://$GOOGLE_BUCKET
