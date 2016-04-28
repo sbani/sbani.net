@@ -1,4 +1,4 @@
-# Website absed on a static site generator called hexo
+# Static Site Generated Website
 Personal website  http://sbani.net
 This website is based on the blog framework [Hexo](https://hexo.io/)
 
