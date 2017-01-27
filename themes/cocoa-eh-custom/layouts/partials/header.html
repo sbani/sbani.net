@@ -12,7 +12,7 @@
 {{ end }}
     <div class="container">
         <div class="content">
-            <a href="{{ .Site.BaseURL }}"><div class="name"><h1>{{ .Site.Title }}</h1></div></a>
+            <a href="{{ .Site.BaseURL }}"><div class="name">{{ .Site.Title }}</div></a>
             <nav>
                 <ul>
                     {{ if ne (len (where .Site.RegularPages "Section" "blog")) 0 }}
