@@ -1,0 +1,29 @@
+languageCode: "en-us"
+title: "sBani"
+baseurl: "http://sbani.net/"
+theme: "cocoa-eh-custom"
+builddrafts: true
+canonifyurls: true
+contentdir: "content"
+languageCode: "en-US"
+layoutdir: "layouts"
+publishdir: "public"
+author: "Sufijen Bani"
+title: "sBani"
+disqusshortname: ""
+pluralizelisttitles: false
+
+permalinks:
+  blog: "blog/:slug/"
+
+params:
+  dateform: "Jan 2, 2006"
+  dateformfull: "Mon Jan 2 2006 15:04:05 MST"
+  description: "Blog"
+  logofile: "/images/avatar.gif"
+  faviconfile: "img/logo.png"
+  highlightjs: true
+  lang: "en"
+  github: "sbani"
+  email: "blog@sbani.net"
+  twitter: "@sbani"

@@ -1,0 +1,26 @@
+<!-- CSS -->
+
+{{ if .Site.Params.highlightjs }}
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
+{{ end }}
+
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/reset.css">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
+
+{{range .Site.Params.extracssfiles}}
+    <link rel="stylesheet" href="{{.}}">
+{{end}}
+
+<!-- Icon -->
+<link rel="shortcut icon"
+{{ if .Site.Params.faviconfile }}
+    href="{{ .Site.Params.faviconfile | absURL }}"
+{{ else }}
+    href="{{ .Site.BaseURL }}img/favicon.ico"
+{{ end }}
+>
+
+<!-- RSS -->
+{{ if .RSSLink }}
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+{{ end }}

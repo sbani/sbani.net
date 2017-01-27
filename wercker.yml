@@ -1,15 +1,16 @@
-box: node
+box: jojomi/hugo
 build:
+  box:
+    id: jojomi/hugo
+    cmd: /bin/sh
   steps:
     - script:
-      name: echo nodejs information
+      name: echo hugo information
       code: |
-        echo "node version $(node -v) running"
-        echo "npm version $(npm -v) running"
-    - npm-install
+        echo "hugo version $(hugo version) running"
     - script:
-      name: hexo generate
-      code: ./node_modules/.bin/hexo generate
+      name: Generate static files
+      code: hugo
 
 deploy:
   box:
