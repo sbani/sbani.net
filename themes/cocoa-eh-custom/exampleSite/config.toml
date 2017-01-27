@@ -1,0 +1,28 @@
+baseurl = "https://example.com/"
+theme = "cocoa-eh"
+builddrafts = true
+canonifyurls = true
+contentdir = "content"
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+author = "Alexis Tacnet"
+title = "Cocoa Enhanced"
+disqusshortname = ""
+pluralizelisttitles = false
+
+[permalinks]
+blog = "blog/:slug/"
+
+[params]
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+description = "Example blog"
+logofile = "img/logo.png"
+faviconfile = "img/logo.png"
+highlightjs = true
+lang = "en"
+github = "example"
+email = "you@example.com"
+linkedin = "john-example-aa80ue8è"
+twitter = "@example"
