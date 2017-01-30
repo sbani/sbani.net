@@ -34,4 +34,4 @@ Wenn ihr den richtigen Commit gefunden habt, dann benutzt den Code, um eure **ve
 <pre>git cherry-pick</pre>
 Danach sind die Dateien wieder im Branch sichtbar.
 
-## Viel Erfolg beim Coding!
+**Viel Erfolg beim Coding!**

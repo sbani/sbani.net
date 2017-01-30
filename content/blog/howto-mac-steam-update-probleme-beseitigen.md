@@ -7,6 +7,7 @@ id: 546
 categories:
   - Tutorials
 date: "2010-07-07T11:51:41-05:00"
+slug: "mac-steam-update-probleme-beseitigen"
 ---
 
 Da ich selbst knapp 30 Minuten darin investiert habe, mein **Steam** auf OSX wieder zum Updaten zu bekommen, poste ich mal ein kleines **HOWTO** zu dem Problem und der Beseitigung, um den Steam Update wieder lauffähig zu bekommen.<!--more-->

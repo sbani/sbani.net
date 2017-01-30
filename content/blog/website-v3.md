@@ -12,19 +12,22 @@ Following the steps in the tutorial, I further needed to add some `slug` meta in
 **But the steps are simple and good to follow!**
 
 The last step was my [wercker](https://wercker.com/) deployment to Google Cloud Storage (gcs). I used a nodejs docker container and one with the google sdk.
-You can look at my [wercker.yml](https://github.com/sbani/sbani.net/blob/master/wercker.yml) to see what happens here.
+You can look into my [wercker.yml](https://github.com/sbani/sbani.net/blob/master/wercker.yml) to see what happens here.
 
 ## For the benchmark freaks
 
 ### Hexo build
 
 NPM-Install: 10 seconds
+
 hexo generate: 5 seconds
+
 All: 26 seconds
 
 ### Hugo build
 
 Hugo build: 2 seconds
+
 All: 10 seconds
 
 ### Conclusion

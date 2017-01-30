@@ -9,21 +9,27 @@ tags:
 ---
 
 ## Wercker and the deploy steps
+
 There are several *deploy steps* for the [wercker](http://wercker.com/) CI service, but none of them worked for me, because they seemed to be outdated when dealing with authorization. But due to the flexibility of wercker to choose whatever [docker container](http://devcenter.wercker.com/docs/containers/index.html) you want, I found a simple and straight forward solution.
 
 ## tl;dr: The solution
-I assume you use a static site generator like hexo or hugo. You can find an example wercker *build* step in my [hexo tutorial](http://sbani.net/Tutorials/divshot-wercker-hexo-deploy.html#wercker-yml) (ignore the deploy part).
+
+I assume you use a static site generator like hexo or hugo. You can find an example wercker *build* step in my [hexo tutorial]({{< relref "blog/divshot-wercker-hexo-deploy.md#wercker-yml" >}}) (ignore the deploy part).
+
 ### Requirements
+
 - A Google Cloud account
 - A service account key (json file)
 - A Google Cloud Storage Bucket
 
 ### Target Environment Variables
+
 **GOOGLE_JSON**: The *Service account key* json file downloaded from google **WITHOUT new lines `\n`**
 **GOOGLE_ACCOUNT**: The email you find in the *Service account key* json file
 **GOOGLE_BUCKET**: Your bucket's name
 
 ### Deploy Step in wercker.yml
+
 ```
 deploy:
   box:
@@ -48,7 +54,9 @@ deploy:
 ### 1. Docker and How to Fix Dependency Problems
 At first I wanted to run all `gcloud` or `gsutil` [installation](https://cloud.google.com/storage/docs/gsutil_install#sdk-install) like I do it on my Mac (`gcloud auth`), but I had to deal with some [dependency problems](https://cloud.google.com/sdk/crypto) using the `python:latest` container for the wercker deploy.
 But as a heavy user of wercker, I know that I can use whatever container I want, so I searched the docker hub for a good image and found: [google/cloud-sdk](https://hub.docker.com/r/google/cloud-sdk/) created by google itself. The dependency problems are gone!
+
 ### 2. Test it locally
+
 I started to test it locally. So I started the docker container
 ```
 # Pull and start
@@ -69,6 +77,7 @@ gsutil -m cp -r -z html,css,js,xml,txt,json,map,svg public/* gs://$GOOGLE_BUCKET
 Wow. Works like a charm. Easy and without any dependency problems.
 
 ### Fix it in wercker
+
 If you read headlines you already know that you can't copy-paste here. Because I did it, and it failed. I copied the env vars and created a wercker.yml with the steps.
 The error is not helpful:
 
@@ -80,11 +89,14 @@ The error is not helpful:
 After several retries, I remembered, that you need to be careful with env vars and newlines. So I removed them from the wercker target vars and a green success button!
 
 ## Important Info
+
 - Remove `\n` from env vars (in wercker): `cat secret.json | sed ':a;N;$!ba;s/\n/ /g'`
 - Always try to use docker as your *package/dependency manager*
 
 ### Useful gsutil stuff
+
 I use the **Google Cloud Storage as my static site hoster** and therefor need to make the bucket content public reabadle:
+
 ```
 # Make existent files public
 gsutil -m acl set -R -a public-read gs://<bucket>

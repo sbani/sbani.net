@@ -55,11 +55,11 @@ Nginx is causing the error. But you can allow bigger headers in nginx config.
 
 To do this, edit (or add) the lines in `nginx.conf`
 ```
-fastcgi_buffers 16 16k; 
+fastcgi_buffers 16 16k;
 fastcgi_buffer_size 32k;
 ```
 In this case the header size is quite low. You probably need other values. Please try it yourself.
 
 ## Further reading
 - I added [an issue](https://github.com/orocrm/platform/issues/321) at the OroCRM issue tracker.
-- Nginx docs about (ngx_http_fastcgi_module)[http://nginx.org/en/docs/http/ngx_http_fastcgi_module.html]
+- Nginx docs about [ngx_http_fastcgi_module](http://nginx.org/en/docs/http/ngx_http_fastcgi_module.html)
