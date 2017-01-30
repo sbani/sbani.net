@@ -14,7 +14,9 @@ build:
 
 deploy:
   box:
-    id: google/cloud-sdk
+    id: sbani/google-gloud-sdk
+    tag: slim
+    cmd: /bin/sh
   steps:
     - script:
       name: Activate service account
