@@ -1,6 +1,6 @@
 languageCode: "en-us"
 title: "sBani"
-baseurl: "http://sbani.net/"
+baseurl: "https://sbani.net/"
 theme: "cocoa-eh-custom"
 builddrafts: true
 canonifyurls: true

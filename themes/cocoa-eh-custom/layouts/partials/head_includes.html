@@ -4,8 +4,8 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
 {{ end }}
 
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/reset.css">
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
+<link rel="stylesheet" href="/css/reset.css">
+<link rel="stylesheet" href="/css/main.css">
 
 {{range .Site.Params.extracssfiles}}
     <link rel="stylesheet" href="{{.}}">
@@ -16,7 +16,7 @@
 {{ if .Site.Params.faviconfile }}
     href="{{ .Site.Params.faviconfile | absURL }}"
 {{ else }}
-    href="{{ .Site.BaseURL }}img/favicon.ico"
+    href="/img/favicon.ico"
 {{ end }}
 >
 
