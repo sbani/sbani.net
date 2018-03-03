@@ -9,9 +9,9 @@ tags:
 ---
 
 When I met my girlfriend five years ago, she told me about her plans to travel the world. The last years,
-we travelled as much as we can and I found out that that this, beside her and hacking & programming, is what I really love.
-Well, time flies and we all know that if you really want something you will have to do it - and if you are lucky enough
-to live in a part of the world where money is present.
+we travelled as much as we can and I found out that this, beside her and hacking & programming, is what I really love.
+Well, time flies and if you really want something you have to do it (and if you are lucky enough
+to live in a part of the world where money is present).
 
 **To cut a long story short, we are will start to travel the world in March 2018 for around one year.**
 
