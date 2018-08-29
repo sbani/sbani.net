@@ -1,8 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic);
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:500);
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 @font-face {
   font-style: normal;
   font-family: "Meslo LG";
@@ -15,7 +13,7 @@
   color: #666666 !important;
 }
 .accent {
-  color: #428bca !important;
+  color: #2bbc8a !important;
 }
 @media (min-width: 550px) {
   .small-screens-only {
@@ -46,23 +44,6 @@ html {
   font-size: 14px;
 }
 body {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: -ms-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  -moz-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  -webkit-justify-content: flex-start;
-  -moz-justify-content: flex-start;
-  -ms-justify-content: flex-start;
-  justify-content: flex-start;
   width: 100%;
   min-height: 100%;
   font-weight: 400;
@@ -73,12 +54,6 @@ body {
   text-rendering: optimizeLegibility !important;
 }
 @media (min-width: 600px) {
-  body {
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center;
-  }
   .non-narrow.zero-top-spacing {
     padding-top: 0 !important;
   }
@@ -118,7 +93,7 @@ section {
     padding: 0 16px;
     margin-left: 100px;
     margin-right: 100px;
-    max-width: 750px;
+    max-width: 1200px;
   }
 }
 section.header {
@@ -160,14 +135,14 @@ section.main {
   }
 }
 section.header .container {
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  justify-content: center;
+  -webkit-align-items: top;
+  -moz-align-items: top;
+  -ms-align-items: top;
+  align-items: top;
+  -webkit-justify-content: top;
+  -moz-justify-content: top;
+  -ms-justify-content: top;
+  justify-content: top;
 }
 section.header .content {
   display: -webkit-flex;
@@ -179,10 +154,10 @@ section.header .content {
   -moz-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
+  -webkit-align-items: top;
+  -moz-align-items: top;
+  -ms-align-items: top;
+  align-items: top;
 }
 section.header .container > a:first-child {
   -webkit-flex:1 0 auto;
@@ -195,7 +170,7 @@ section.header a .name {
   font-size: 28px;
   font-family: 'Nexa Bold', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
-  text-transform: uppercase;
+  text-transform: lowercase;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -203,7 +178,7 @@ section.header a .name {
 }
 section.header nav {
   margin-bottom: 16px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
 }
 section.header nav ul {
@@ -282,14 +257,14 @@ section.header nav ul li:hover {
   }
 }
 section.icons .container {
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  justify-content: center;
+  -webkit-align-items: top;
+  -moz-align-items: top;
+  -ms-align-items: top;
+  align-items: top;
+  -webkit-justify-content: top;
+  -moz-justify-content: top;
+  -ms-justify-content: top;
+  justify-content: top;
 }
 section.icons .content {
   width: auto;
@@ -441,10 +416,10 @@ section.main .content .front-matter .middot:before {
   }
 }
 section.main .container.f04 {
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  justify-content: center;
+  -webkit-justify-content: top;
+  -moz-justify-content: top;
+  -ms-justify-content: top;
+  justify-content: top;
 }
 section.main .container.f04 .content {
   display: -webkit-flex;
@@ -456,10 +431,10 @@ section.main .container.f04 .content {
   -moz-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
+  -webkit-align-items: top;
+  -moz-align-items: top;
+  -ms-align-items: top;
+  align-items: top;
 }
 section.main .container.f04 .content .num {
   margin: 30px 0px 30px 0;
@@ -552,8 +527,8 @@ section.main .container .content .post-item {
     margin: 0 30px;
   }
   section.header {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   section.icons {
     padding-top: 60px;
@@ -642,7 +617,7 @@ section.main .content .markdown code,
 section.main .content .markdown pre {
   font-family: 'Ubuntu Mono', 'Menlo', monospace;
   font-size: 0.98rem;
-  background-color: #1d1f21;
+  background-color: #555555;
 }
 section.main .content .markdown code {
   /* enclosed by single backtick (`) */
@@ -678,7 +653,7 @@ section.main .content .markdown p {
   line-height: 1.75em;
   color: #c9cacc;
   letter-spacing: 0.01rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Menlo", "Meslo LG", 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
   font-weight: 100;
   margin-top: 0;
   margin-bottom: 1em;
@@ -749,15 +724,11 @@ section.main .content .markdown img {
 section.main .content .markdown table {
   margin-bottom: 1rem;
   width: 100%;
-  border: 1px solid #e5e5e5;
+  border: 1px dotted #e5e5e5;
   border-collapse: collapse;
 }
 section.main .content .markdown td,
 section.main .content .markdown th {
   padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
-}
-section.main .content .markdown tbody tr:nth-child(odd) td,
-section.main .content .markdown tbody tr:nth-child(odd) th {
-  background-color: #f7f7f7;
+  border: 1px dotted #e5e5e5;
 }
