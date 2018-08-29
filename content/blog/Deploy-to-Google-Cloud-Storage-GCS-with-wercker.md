@@ -14,7 +14,7 @@ There are several *deploy steps* for the [wercker](http://wercker.com/) CI servi
 
 ## tl;dr: The solution
 
-I assume you use a static site generator like hexo or hugo. You can find an example wercker *build* step in my [hexo tutorial]({{< relref "blog/divshot-wercker-hexo-deploy.md#wercker-yml" >}}) (ignore the deploy part).
+I assume you use a static site generator like hexo or hugo. You can find an example wercker *build* step in my [hexo tutorial]({{< relref "/blog/divshot-wercker-hexo-deploy.md#wercker-yml" >}}) (ignore the deploy part).
 
 ### Requirements
 

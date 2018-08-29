@@ -9,9 +9,9 @@ categories:
 ---
 
 **Update**:
-Divshot is no longer available. I, myself upload my html code to Google Cloud Storage. [Here is the my tutorial about how to setup deployment]({{< relref "blog/Deploy-to-Google-Cloud-Storage-GCS-with-wercker.md" >}}).
+Divshot is no longer available. I, myself upload my html code to Google Cloud Storage. [Here is the my tutorial about how to setup deployment]({{< relref "/blog/Deploy-to-Google-Cloud-Storage-GCS-with-wercker.md" >}}).
 
-If you want to use Cloudflare's DNS for your [Divshot setup]({{< relref "blog/divshot-wercker-hexo-deploy.md" >}}) and you want to **point your root Damain to your app**, you need to follow these steps.
+If you want to use Cloudflare's DNS for your [Divshot setup]({{< relref "/blog/divshot-wercker-hexo-deploy.md" >}}) and you want to **point your root Damain to your app**, you need to follow these steps.
 
 In the [Divshot Docs about Domains](http://docs.divshot.com/guides/domains/registrars) they say:
 > Just point a CNAME record to `your-app.divshot.io`
