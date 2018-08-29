@@ -1,6 +1,5 @@
 languageCode: "en-us"
-title: "sBani"
-baseurl: "https://sbani.net/"
+baseurl: "https://netw0rk.io/"
 theme: "cocoa-eh-custom"
 builddrafts: true
 canonifyurls: true
@@ -8,9 +7,8 @@ contentdir: "content"
 languageCode: "en-US"
 layoutdir: "layouts"
 publishdir: "public"
-author: "Sufijen Bani"
-title: "sBani"
-disqusshortname: ""
+author: "sBani"
+title: "netw0rk.io"
 pluralizelisttitles: false
 
 permalinks:
@@ -25,4 +23,3 @@ params:
   lang: "en"
   github: "sbani"
   email: "blog@sbani.net"
-  twitter: "@sbani_ger"

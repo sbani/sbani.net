@@ -4,11 +4,12 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:500);
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 @font-face {
-  font-family: 'Nexa Bold';
-  src: url('../fonts/Nexa Bold.otf');
-}0
+  font-style: normal;
+  font-family: "Meslo LG";
+  src: local("Meslo LG S"), url("../fonts/MesloLGS-Regular.ttf") format("truetype");
+}
 .dark {
-  color: #333333 !important;
+  color: #1d1f21 !important;
 }
 .light {
   color: #666666 !important;
@@ -42,7 +43,7 @@ a:active {
 }
 html {
   height: 100%;
-  font-size: 16px;
+  font-size: 14px;
 }
 body {
   display: -webkit-flex;
@@ -65,8 +66,9 @@ body {
   width: 100%;
   min-height: 100%;
   font-weight: 400;
-  font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
-  color: #111111;
+  font-family: "Menlo", "Meslo LG", 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+  color: #c9cacc;
+  background-color: #1d1f21;
   line-height: 1.6;
   text-rendering: optimizeLegibility !important;
 }
@@ -188,7 +190,7 @@ section.header .container > a:first-child {
 section.header .container .logo {
   max-width: 100px;
 }
-section.header .name {
+section.header a .name {
   padding-top: 20px;
   font-size: 28px;
   font-family: 'Nexa Bold', 'Helvetica Neue', 'Arial', sans-serif;
@@ -197,8 +199,7 @@ section.header .name {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  color: #333333;
-  color: #555555;
+  color: #2bbc8a;
 }
 section.header nav {
   margin-bottom: 16px;
@@ -234,7 +235,7 @@ section.header nav ul li {
   -o-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 section.header nav ul li:hover {
-  color: #111111;
+  color: #2bbc8a;
 }
 @media (min-width: 600px) {
   section.header {
@@ -264,7 +265,7 @@ section.header nav ul li:hover {
     align-items: flex-start;
   }
   section.header .name {
-    color: #333333;
+    color: #2bbc8a;
   }
   section.header nav {
     font-size: 14px;
@@ -277,7 +278,7 @@ section.header nav ul li:hover {
     color: #666666;
   }
   section.header nav ul li:hover {
-    color: #333333;
+    color: #2bbc8a;
   }
 }
 section.icons .container {
@@ -309,7 +310,7 @@ section.icons .content a:last-child {
   margin-right: 0;
 }
 section.icons .content a:hover {
-  color: #111111;
+  color: #2bbc8a;
 }
 section.icons .content a .icon {
   font-size: 20px;
@@ -333,7 +334,7 @@ section.icons .content a .icon.larger {
     color: #666666;
   }
   section.icons .content a:hover {
-    color: #333333;
+    color: #2bbc8a;
   }
   section.icons .content a .icon {
     font-size: 18px;
@@ -353,7 +354,7 @@ section.main .container {
   justify-content: flex-start;
 }
 section.main .content {
-  color: #111111;
+  color: #c9cacc;
   font-size: 16px;
 }
 section.main .content .title-container {
@@ -377,7 +378,7 @@ section.main .content .title-container .initials {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  color: #333333;
+  color: #1d1f21;
   color: #666666;
 }
 section.main .content .title-container .initials a {
@@ -388,7 +389,7 @@ section.main .content .title-container .initials a {
   -o-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 section.main .content .title-container .initials a:hover {
-  color: #333333;
+  color: #1d1f21;
 }
 section.main .content .page-heading {
   font-size: 18px;
@@ -399,7 +400,7 @@ section.main .content .page-heading {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  color: #333333;
+  color: #c9cacc;
   margin-bottom: 16px;
 }
 section.main .content .front-matter .page-heading {
@@ -518,7 +519,7 @@ section.main .container .content .see-more {
   float: right;
   font-size: 0.9em;
   margin-top: 2em;
-  color: #313537;
+  color: #c9cacc;
 }
 section.main .container .content .see-more:hover {
   color: #666;
@@ -575,15 +576,16 @@ section.main .container .content .post-item {
     padding-bottom: 60px;
   }
 }
-a {
-  color: #428bca;
+.main a {
+  color: #c9cacc;
+  text-decoration: underline solid;
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -o-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
-a:hover {
-  color: #2a6496;
+.main a:hover {
+  text-decoration-color: #2bbc8a;
 }
 img {
   max-width: 100%;
@@ -597,8 +599,9 @@ img.profile {
     max-width: 300px !important;
   }
 }
-.page-heading a {
-  color: #333333;
+.page-heading {
+  color: #2bbc8a;
+  text-decoration: none;
 }
 section.main .content .markdown h1,
 section.main .content .markdown h2,
@@ -612,17 +615,17 @@ section.main .content .markdown h6 {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  color: #333333;
+  color: #2bbc8a;
   text-transform: none;
   margin-top: 1.75rem;
 }
 section.main .content .markdown h1 {
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 section.main .content .markdown h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  margin-bottom: 1.3rem;
 }
 section.main .content .markdown h3 {
   font-size: 1em;
@@ -639,7 +642,7 @@ section.main .content .markdown code,
 section.main .content .markdown pre {
   font-family: 'Ubuntu Mono', 'Menlo', monospace;
   font-size: 0.98rem;
-  background-color: #f7f7f7;
+  background-color: #1d1f21;
 }
 section.main .content .markdown code {
   /* enclosed by single backtick (`) */
@@ -673,7 +676,7 @@ section.main .content .markdown p {
   font-size: 1em;
   text-align: justify;
   line-height: 1.75em;
-  color: #313537;
+  color: #c9cacc;
   letter-spacing: 0.01rem;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 100;
@@ -737,7 +740,7 @@ section.main .content .markdown blockquote p:last-child {
     padding-left: 1.25rem;
   }
   section.main .content .markdown p {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 section.main .content .markdown img {
   margin: 1rem 0;
