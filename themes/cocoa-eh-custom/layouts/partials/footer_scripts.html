@@ -1,10 +1,12 @@
 {{ if .Site.Params.highlightjs }}
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
-  {{ range .Site.Params.highlightjslanguages }}
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/{{.}}.min.js"></script>
-  {{ end }}
+  <link rel="stylesheet" href="/css/highlightjs/agate.min.css" />
+
+  <script src="/js/highlight.pack.js"></script>
 
   <script type="text/javascript">
     hljs.initHighlightingOnLoad();
   </script>
 {{ end }}
+
+<script src="/js/particles.min.js"></script>
+<script src="/js/app.js"></script>
