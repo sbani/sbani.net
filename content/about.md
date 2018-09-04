@@ -11,7 +11,7 @@ Programming, especially for the web, is my passion and my job. I code in PHP, Go
 Cyber Security and Ethical Hacking are topics I love since the very beginning. My skills are solid and proofed and I make use of them every day.
 
 ## What I've Worked With
-I've worked with with the following tools for some time during my job or in my spare time. Always serious enough to be comfortable to use or not to use them in prod. Please do not consider the list as complete.
+I've worked with the following tools for some time during my job or in my spare time. Always serious enough to be comfortable to use or not to use them in prod. Please do not consider the list as complete.
 
  - PHP: Symphony, Kohana, Zend, Silex, Behat, ...
  - Go: Echo, BoltDB, Dep, ...
