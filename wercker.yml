@@ -11,21 +11,3 @@ build:
     - script:
       name: Generate static files
       code: hugo
-
-deploy:
-  box:
-    id: sbani/google-gloud-sdk
-    tag: slim
-    cmd: /bin/sh
-  steps:
-    - script:
-      name: Activate service account
-      code: |
-        echo $GOOGLE_JSON >> secret.json
-        CLOUDSDK_PYTHON_SITEPACKAGES=1 gcloud auth activate-service-account $GOOGLE_ACCOUNT --key-file secret.json
-
-    - script:
-      name: Upload to store
-      code: |
-        gsutil -m rsync -r -d public gs://$GOOGLE_BUCKET
-        gsutil -m cp -r -z html,css,js,xml,txt,json,map,svg public/* gs://$GOOGLE_BUCKET
