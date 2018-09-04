@@ -37,5 +37,5 @@ monero: [46MbC3qJQk36TCjCoR7iYfK7R2MKmXvkXXNPPmyXwgPG18QqhtHn5eV1AcyVqH82yTVkdKr
 [7]: https://www.buymeacoffee.com/netw0rk
 [8]: bitcoin:1FLTVnQ1ca1kCzzM7oKj1ji9YrLkNLWkT7
 [9]: https://www.nanode.co/account/xrb_1afunrk963niybrnq1mpb6rh34nr54ja1qdjsquhouceaw491prztdxutw7i
-[10]: https://moneroexplorer.com/search?value=45m3JWtt8uZc9Pq2TkvHWfQy8iuAoTccuT4amMwaQqduj1fx183DXuGFnz1d6WDGQo2fhwdvcDuW2BYRJGZKu7hsE6UgPmW
+[10]: monero:45m3JWtt8uZc9Pq2TkvHWfQy8iuAoTccuT4amMwaQqduj1fx183DXuGFnz1d6WDGQo2fhwdvcDuW2BYRJGZKu7hsE6UgPmW
 
