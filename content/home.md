@@ -9,16 +9,19 @@ This server is part of the [Tor](https://torproject.org) network and sponsors tr
 Relay fingerprint: [D30EF4C7A071A2DA4E901E48984D45EB2BA24920][1]
 
 ### ipfs gateway
-You can use this server as a public gateway for your ipfs data.
+~~You can use this server as a public gateway for your ipfs data.~~ \
+IPFS gateway is temporarly offline due to abuse messages. I will 
+try to figure out how to handle such incidents. \
+The TOR gateway is still up and running.
 
-URL: `https://ipfs.netw0rk.io/ipfs/{hash}` ([example][2]) \
+~~URL: `https://ipfs.netw0rk.io/ipfs/{hash}` ([example][2])~~ \
 Tor: `http://ipfskrqqlv5nqbfs.onion/ipfs/{hash}` ([example][3])
 
 ## contact
 email: [sbani[at]netw0rk.io][4] \
 mastodon: [@sbani@toot.cafe][5] \
-pgp: [C38E 1ACA CD66 B74B 7AFF C8FC 462E B058 1715 8FFC][6]
-
+pgp: [C38E 1ACA CD66 B74B 7AFF C8FC 462E B058 1715 8FFC][6] \
+Please report abuse to [abuse[at]netw0rk.io][11]
 
 ### donations
 
@@ -38,4 +41,4 @@ monero: [46MbC3qJQk36TCjCoR7iYfK7R2MKmXvkXXNPPmyXwgPG18QqhtHn5eV1AcyVqH82yTVkdKr
 [8]: bitcoin:1FLTVnQ1ca1kCzzM7oKj1ji9YrLkNLWkT7
 [9]: https://www.nanode.co/account/xrb_1afunrk963niybrnq1mpb6rh34nr54ja1qdjsquhouceaw491prztdxutw7i
 [10]: monero:45m3JWtt8uZc9Pq2TkvHWfQy8iuAoTccuT4amMwaQqduj1fx183DXuGFnz1d6WDGQo2fhwdvcDuW2BYRJGZKu7hsE6UgPmW
-
+[11]: mailto:abuse[at]netw0rk.io
