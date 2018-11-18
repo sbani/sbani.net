@@ -16,7 +16,7 @@ Tor: `http://ipfskrqqlv5nqbfs.onion/ipfs/{hash}` ([example][3])
 ## contact
 email: [sbani[at]netw0rk.io][4] \
 mastodon: [@sbani@toot.cafe][5] \
-pgp: [C38E 1ACA CD66 B74B 7AFF C8FC 462E B058 1715 8FFC][6] \
+pgp: [83F6 5BFB 9D3D 55E9 97BD 1DCE 448F 0B97 0D0F F2D3][6] \
 Please report abuse to [abuse[at]netw0rk.io][11]
 
 ### donations
