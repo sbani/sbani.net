@@ -8,9 +8,9 @@ twitter: [@sbani_ger_][1] \
 Please report abuse to [abuse[at]netw0rk.io][3]
 
 ## About me
-My name is Sufijen Bani and I live in Berlin, Germany. I also love to travel, meet new people and cultures. My twelfe month round the world trip was the biggest adventure in my life… yet.
+My name is Sufijen Bani and I live in Berlin, Germany. I love to travel, meet new people and cultures. My twelfe month round the world trip was the biggest adventure in my life… yet.
 
-Cyber Security, Security Engineering and Penetration Testing is my passiong and my job.
+Cyber Security, Security Engineering and Penetration Testing is my passion and my job.
 
 ## Contributions & Projects
 The list of contributions and my own projects is growing because I love open source and working in distributed teams.
