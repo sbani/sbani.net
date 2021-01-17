@@ -1,9 +1,9 @@
-box: jojomi/hugo
 build:
   box:
-    id: jojomi/hugo
-    cmd: /bin/sh
+    id: klakegg/hugo
   steps:
+    - bundle-install:
+        cwd: src/
     - script:
       name: echo hugo information
       code: |
