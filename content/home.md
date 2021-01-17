@@ -2,38 +2,23 @@
 title: "Home"
 ---
 
-## projects / services
-### tor
-This server is part of the [Tor](https://torproject.org) network and sponsors traffic as a relay node.
-
-Relay fingerprint: [D30EF4C7A071A2DA4E901E48984D45EB2BA24920][1]
-
-### ipfs gateway
-You can use this server as a public gateway for your ipfs data. through the tor network.
-
-Tor: `http://ipfskrqqlv5nqbfs.onion/ipfs/{hash}` ([example][3])
-
 ## contact
-email: [sbani[at]netw0rk.io][4] \
-mastodon: [@sbani@toot.cafe][5] \
-pgp: [83F6 5BFB 9D3D 55E9 97BD 1DCE 448F 0B97 0D0F F2D3][6] \
-Please report abuse to [abuse[at]netw0rk.io][11]
+email: [sbani[at]netw0rk.io][1] \
+twitter: [@sbani_ger_][1] \
+Please report abuse to [abuse[at]netw0rk.io][3]
 
-### donations
+## About me
+My name is Sufijen Bani and I live in Berlin, Germany. I also love to travel, meet new people and cultures. My twelfe month round the world trip was the biggest adventure in my life… yet.
 
-All provided services are free of charge! Nevertheless, you can support me and my work by donating through [Buy me a coffee][7] or Cryptocoins:
+Cyber Security, Security Engineering and Penetration Testing is my passiong and my job.
 
-bitcoin: [1FLTVnQ1ca1kCzzM7oKj1ji9YrLkNLWkT7][8] \
-nano: [xrb_1afunrk963niybrnq1mpb6rh34nr54ja1qdjsquhouceaw491prztdxutw7i][9] \
-monero: [46MbC3qJQk36TCjCoR7iYfK7R2MKmXvkXXNPPmyXwgPG18QqhtHn5eV1AcyVqH82yTVkdKrifwkQnQCQTjgzF253N9eQZnE][10]
+## Contributions & Projects
+The list of contributions and my own projects is growing because I love open source and working in distributed teams.
+Take a look at some of them on [Github](https://github.com/sbani)
 
-[1]: https://metrics.torproject.org/rs.html#details/D30EF4C7A071A2DA4E901E48984D45EB2BA24920
-[3]: http://ipfskrqqlv5nqbfs.onion/ipfs/Qmc5gCcjYypU7y28oCALwfSvxCBskLuPKWpK4qpterKC7z
-[4]: mailto:sbani[at]netw0rk.io
-[5]: https://toot.cafe/@sbani
-[6]: /pub.pgp.asc
-[7]: https://www.buymeacoffee.com/netw0rk
-[8]: bitcoin:1FLTVnQ1ca1kCzzM7oKj1ji9YrLkNLWkT7
-[9]: https://www.nanode.co/account/xrb_1afunrk963niybrnq1mpb6rh34nr54ja1qdjsquhouceaw491prztdxutw7i
-[10]: monero:45m3JWtt8uZc9Pq2TkvHWfQy8iuAoTccuT4amMwaQqduj1fx183DXuGFnz1d6WDGQo2fhwdvcDuW2BYRJGZKu7hsE6UgPmW
-[11]: mailto:abuse[at]netw0rk.io
+Although I'm not active at the moment, I'm one of the founders and programmers of [Serlo](https://serlo.org), a non-profit organization and website where students and everybody else can find help for Math, Biology, etc ... FOR FREE!
+
+
+[1]: mailto:sbani[at]netw0rk.io
+[2]: https://toot.cafe/@sbani
+[3]: mailto:abuse[at]netw0rk.io

@@ -1,5 +1,5 @@
 # Static Site Generated Website
-Personal website  https://sbani.net
+Personal website  https://netw0rk.io
 This website is based on the static site generator tool [Hugo](http://gohugo.io/)
 
 # LICENSE
