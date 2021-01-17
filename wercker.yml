@@ -1,0 +1,13 @@
+box: jojomi/hugo
+build:
+  box:
+    id: jojomi/hugo
+    cmd: /bin/sh
+  steps:
+    - script:
+      name: echo hugo information
+      code: |
+        echo "hugo version $(hugo version) running"
+    - script:
+      name: Generate static files
+      code: hugo
