@@ -4,7 +4,7 @@ title: "Home"
 
 ## contact
 email: [sbani[at]netw0rk.io][1] \
-twitter: [@sbani_ger_][1] \
+twitter: [@sbani_ger][2] \
 Please report abuse to [abuse[at]netw0rk.io][3]
 
 ## About me
@@ -20,5 +20,5 @@ Although I'm not active at the moment, I'm one of the founders and programmers o
 
 
 [1]: mailto:sbani[at]netw0rk.io
-[2]: https://toot.cafe/@sbani
+[2]: https://twitter.com/sbani_ger
 [3]: mailto:abuse[at]netw0rk.io
