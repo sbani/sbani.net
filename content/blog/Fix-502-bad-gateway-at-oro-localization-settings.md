@@ -40,14 +40,14 @@ The **ChromePHP** extension is made for debugging and the PHP extension adds the
 
 ### a) Disable ChromePHP
 For sure, an easy solution is to disable ChromePHP.
-You do this by commenting/removing the following lines in `app/config/config_dev.yml`
+You do this by **commenting/removing the following lines** in `app/config/config_dev.yml`
 ```yaml
-#        firephp:
-#            type:  firephp
-#            level: info
-#        chromephp:
-#            type:  chromephp
-#            level: info
+        firephp:
+            type:  firephp
+            level: info
+        chromephp:
+            type:  chromephp
+            level: info
 ```
 
 ### b) Raise nginx upstream header size
