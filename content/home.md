@@ -12,6 +12,10 @@ My name is Sufijen Bani and I live in Berlin, Germany. I love to travel, meet ne
 
 Cyber Security, Security Engineering and Penetration Testing is my passion and my job.
 
+## Common Vulnerabilities and Exposures (CVE)
+- 2020-01-28: [CVE-2020-5428: Possibility of SQL Injection in Spring Cloud Task Execution Sorting Query](https://tanzu.vmware.com/security/cve-2020-5428)
+- 2020-01-28: [CVE-2020-5427: Possibility of SQL Injection in Spring Cloud Data Flow Task Execution Sorting Query](https://tanzu.vmware.com/security/cve-2020-5427)
+
 ## Contributions & Projects
 The list of contributions and my own projects is growing because I love open source and working in distributed teams.
 Take a look at some of them on [Github](https://github.com/sbani)
