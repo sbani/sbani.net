@@ -2,5 +2,5 @@
 
 hugo
 
-rsync -avP --delete public/* h3:/var/www/netw0rkio/
+rsync -avP --delete public/* h4:/var/www/netw0rkio/
 
