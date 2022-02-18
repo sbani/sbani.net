@@ -15,6 +15,10 @@ My name is Sufijen Bani and I live in Berlin, Germany. I love to travel, meet ne
 
 Cyber Security, Security Engineering and Penetration Testing is my passion and my job.
 
+## Services: Cyber Security Consulting (Remote or Berlin, Germany)
+
+Contact me if you are interested in **Cyber Security Consulting**, **Penetration Testing**, **DevSecOps & Security Engineering**. Book my expertise, remote or in Berlin, Germany!
+
 ## Common Vulnerabilities and Exposures (CVE)
 
 - 2020-01-28: [CVE-2020-5428: Possibility of SQL Injection in Spring Cloud Task Execution Sorting Query](https://tanzu.vmware.com/security/cve-2020-5428)
