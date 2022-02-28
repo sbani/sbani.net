@@ -1,5 +1,6 @@
 #/bin/bash
 set -xe
+
 DEPLOY_PATH=/var/www/netw0rkio/
 
 hugo

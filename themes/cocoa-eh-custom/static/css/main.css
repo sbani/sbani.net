@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Raleway:500);
+@import url("./open-sans.css");
+@import url("./ubuntu-mono.css");
+@import url("./raleway.css");
 @font-face {
   font-style: normal;
   font-family: "Meslo LG";
