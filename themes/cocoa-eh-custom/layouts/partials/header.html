@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-{{ partial "head.html" . }}
+  {{ partial "head.html" . }}
 
-<body lang="{{ .Site.Params.lang }}">
-<div id="particlesjs"></div>
-<section class="header">
+  <body lang="{{ .Site.Params.lang }}">
+  <div id="particlesjs"></div>
+  <section class="header">
     <div class="container">
-        <div class="content">
-            <a href="{{ .Site.BaseURL }}"><div class="name">{{ .Site.Title }}</div></a>
-            <nav>
-                <ul>
-                    <a href="{{ .Site.BaseURL }}"><li>home</li></a>
-                    {{ if ne (len (where .Site.RegularPages "Section" "blog")) 0 }}
-                        <a href="{{ .Site.BaseURL }}blog/"><li>Blog</li></a>
-                    {{ end }}
-                    {{ range .Site.Sections }}
-                        {{ range first 1 (where .Pages "Section" "ne" "")}}
-                            {{ if ne .Section "blog"}}
-                            <a href="{{ .Section | urlize }}"><li>{{ .Section }}</li></a>
-                            {{ end }}
-                        {{ end }}
-                    {{ end }}
-                    {{ range where .Site.RegularPages "Section" ""}}
-                        {{ if ne .Title "Home"}}
-                            <a href="{{ .Permalink }}"><li>{{ .Title }}</li></a>
-                        {{ end }}
-                    {{ end }}
-                </ul>
-            </nav>
-        </div>
+      <div class="content">
+        <a href="{{ .Site.BaseURL }}"><div class="name">{{ .Site.Title }}</div></a>
+        {{ if ne (len (where .Site.RegularPages "Section" "blog")) 0 }}
+        <nav>
+          <ul>
+              <a href="{{ .Site.BaseURL }}"><li>home</li></a>
+              <a href="{{ .Site.BaseURL }}blog/"><li>Blog</li></a>
+              {{ range .Site.Sections }}
+                {{ range first 1 (where .Pages "Section" "ne" "")}}
+                  {{ if ne .Section "blog"}}
+                  <a href="{{ .Section | urlize }}"><li>{{ .Section }}</li></a>
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+              {{ range where .Site.RegularPages "Section" ""}}
+                {{ if ne .Title "Home"}}
+                  <a href="{{ .Permalink }}"><li>{{ .Title }}</li></a>
+                {{ end }}
+              {{ end }}
+            </ul>
+        </nav>
+        {{ end }}
+      </div>
     </div>
-</section>
+  </section>
