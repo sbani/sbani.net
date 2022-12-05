@@ -1,7 +1,9 @@
 <!-- CSS -->
+{{ $style := resources.Get "css/reset.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
 
-<link rel="stylesheet" href="/css/reset.css">
-<link rel="stylesheet" href="/css/main.css">
+{{ $style := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
 
 {{range .Site.Params.extracssfiles}}
     <link rel="stylesheet" href="{{.}}">
