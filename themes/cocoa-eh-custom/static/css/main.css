@@ -527,8 +527,8 @@ section.main .container .content .post-item {
     margin: 0 30px;
   }
   section.header {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   section.icons {
     padding-top: 60px;
@@ -731,12 +731,4 @@ section.main .content .markdown td,
 section.main .content .markdown th {
   padding: .25rem .5rem;
   border: 1px dotted #e5e5e5;
-}
-
-#particlesjs {
-  position : absolute;
-  width:100%;
-  height:100%;
-  z-index:-1;
-  opacity: 0.5;
 }

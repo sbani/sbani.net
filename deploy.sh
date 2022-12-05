@@ -4,7 +4,7 @@ set -xe
 DEPLOY_PATH=/var/www/netw0rkio
 
 rm -rf public
-hugo
+hugo --minify
 
 rsync -avP --delete public/ h4:$DEPLOY_PATH
 
