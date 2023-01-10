@@ -6,7 +6,7 @@ title: "Home"
 
 email: [sbani[.at.]netw0rk.io][1] \
 hackerone: [@sbani][4] \
-fediverse (mastodon like): [@sbani@m.netw0rk.io][2] \
+mastodon/fediverse: [@sbani@m.netw0rk.io][2] \
 Please report abuse to [abuse[.at.]netw0rk.io][3]
 
 ## About me
@@ -30,6 +30,12 @@ The list of contributions and my own projects is growing because I love open sou
 Take a look at some of them on [Github](https://github.com/sbani)
 
 Although I'm not active at the moment, I'm one of the founders and programmers of [Serlo](https://serlo.org), a non-profit organization and website where students and everybody else can find help for Math, Biology, etc ... FOR FREE!
+
+### Free Mastodon Instance
+
+I'm hosting a free and open Mastodon Instance. You can register for free and join the Fediverse.
+
+Register here: https://m.netw0rk.io/
 
 [1]: mailto:sbani[.at.]netw0rk.io
 [2]: https://m.netw0rk.io/@sbani
