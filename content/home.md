@@ -6,7 +6,7 @@ title: "Home"
 
 email: [sbani[.at.]netw0rk.io][1] \
 hackerone: [@sbani][4] \
-mastodon/fediverse: [@sbani@m.netw0rk.io][2] \
+mastodon/fediverse: [@sbani@infosec.exchange][2] \
 Please report abuse to [abuse[.at.]netw0rk.io][3]
 
 ## About me
@@ -38,6 +38,6 @@ I'm hosting a free and open Mastodon Instance. You can register for free and joi
 Register here: https://m.netw0rk.io/
 
 [1]: mailto:sbani[.at.]netw0rk.io
-[2]: https://m.netw0rk.io/@sbani
+[2]: https://infosec.exchange/@sbani
 [3]: mailto:abuse[.at.]netw0rk.io
 [4]: https://hackerone.com/sbani
